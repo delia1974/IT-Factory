@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/styles_form.css">
+    <title>Formular de înscriere</title>
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <!--header section-->
+        <div class="header-section">    	
+            <p>
+                <a href="https://www.w3schools.com/css/css3_multiple_columns.asp"><button class="button button3">CSS Multiple Columns</button></a>
+                <a href="https://www.w3schools.com/css/css3_buttons.asp"><button class="button button3">CSS Buttons</button></a>
+                <a href="https://www.w3schools.com/css/css3_shadows.asp"><button class="button button3">CSS Shadow Effects</button></a>
+            </p>
+    </header>    
+    <!--Project section-->   
+    <main>         
+        <div class="sectiune-1">
+            
+            IT Factory - WORKSHOP GRATUIT<br>
+            Assignment - Optional</p>
+                
+            <center><h1>WORKSHOP GRATUIT</h1>
+            Introducere în Web development<br>
+            JavaScript | HTML | CSS  </center><br>
+            
+            <ul>
+                <li>Află dacă domeniul IT este pentru tine</li>
+                <li>Vom scrie împreună primele tale linii de cod</li>
+                <li>Cadou: curs de programare pentru toți participanții</li>    
+            </ul>
+            
+            <p>Profită de această oportunitate, fă primul pas înspre viitoarea ta carieră!</p>
+            <p>Workshop-ul va fi online și complet gratuit.</p>
+            
+            <p>Ești binevenit chiar dacă nu ai deloc experiență, vom porni de la 0.</p>
+
+            <p>Vei avea ocazia să verifici dacă înțelegi și dacă îți place această lume a programării, îndrumat de un trainer specializat.</p>
+                
+            <p>La final, primești garantat cursul “Primii pași în programare – comparație practică între Java și Python”, dezvoltat chiar de co-fondatorul companiei, Andy.</p>
+            
+            <h3>YOUR FRIENDLY HOSTS</h3>
+            
+            <div class="img"> &nbsp &nbsp &nbsp
+                <center>
+                <div class="gallery">
+                    <a target="_blank" href="../image/Andy.jpg">
+                      <img src="../image/Andy.jpg" style="width:200px; height: 220px; align:left" alt="Andy">
+                    </a>
+                    <div class="desc">Andy Sînpetrean - Cofondator ITF</div>
+                </div>
+                
+                <div class="gallery">
+                    <a target="_blank" href="../image/Cristina.jpg">
+                      <img src="../image/Cristina.jpg" style="width:200px; height: 220px; align:left" alt="Cristina">
+                    </a>
+                    <div class="desc">Cristina Bălănică - Manager ITF</div>
+                </div>  
+                 </center> 
+            </div>
+            
+            <p><p><p></p>
+            <div>
+            “Având peste 10 ani experiență în domeniul IT, atât ca programator cât și ca trainer, am ajuns la concluzia că fiecare persoană are un ritm de învățare 
+            diferit. Datoria noastră de formatori este să identificăm în fiecare persoană potențialul maxim și să asigurăm un cadru optim prin care acest potențial
+            să fie atins.” – Andy Sînpetrean
+            </div>           
+                
+            <center><img src="../image/woman.png"></center><p>
+            <form action="" method="get" class="contact_form_two">
+                <div class="email">
+                    <label for="email"> Tastează adresa de email: </label>
+                    &nbsp &nbsp &nbsp
+                    <input type="email" name="adresa_email" id="adresa_email" required size="40" maxlength="40"><br>
+                    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                    [Te rugăm să te asiguri că email-ul e corect]
+                </div>
+
+                <p>
+                <div class="number">
+                    <label for="number">Tastează nr. de telefon: </label>
+                    &nbsp &nbsp &nbsp &nbsp &nbsp
+                    <input type="text" name="nr_telefon" id="nr_telefon" required size="40" maxlength="10"><br>
+                    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                    [Te rugăm să te asiguri ca numarul e corect]
+                </div>
+
+                <p>
+                <div class="last_name">
+                    <label for="last_name">Tastează numele tău: </label>
+                    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp 
+                    <input type="text" name="last_name" id="last_name" required size="40" maxlength="30">
+                </div>
+
+                <p>    
+                <div class="first_name">
+                    <label for="first_name">Tastează prenumele tău: </label>
+                    &nbsp &nbsp &nbsp &nbsp 
+                <input type="text" name="first_name" id="first_name" required size="40">
+                </div>
+
+                <p>    
+                <div class="date">
+                    <label for="date">Dată înscriere: </label>
+                    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp 
+                    <input type="date" name="date" id="date" required maxlength="60">
+                </div>
+
+                <p>    
+                <div class="promotional_code">
+                    <label for="promotional_code">Cod promoțional: </label>
+                    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                    <input type="text" name="promotional_code" id="promotional_code" required size="40">
+                </div>
+
+                <p>    
+                Ai mai scris până acum cod într-un limbaj de programare?
+                <div class="radio_button"> 
+                    <input type="radio" name="radio_button" id="radio_button" required>
+                    Da - am mai scris cod<p>
+                    <input type="radio" name="radio_button" id="radio_button" required>
+                    Nu - nu am avut ocazia până acum să scriu cod<p>
+                </div> 
+                
+                
+                <div class="select_option"> 
+                    <label for="select_option">Dacă da, care este limbajul de programare? </label>
+                    &nbsp &nbsp &nbsp
+                    <select>
+                        <option>HTML</option>
+                        <option>CSS</option>
+                        <option>JavaScript</option>
+                        <option>nici unul</option>
+                    </select>
+                    
+                </div> 
+
+                <p>
+                Bifează în căsuță    
+                <div class="checkbox">
+                    <input type="checkbox">Accept termenii de prelucare a datelor cu caracter personal
+                <p>
+                    <input type="checkbox">Accept să primesc email-uri despre cursuri și alte materiale
+                </div>  
+            
+                <p> 
+                <div class="buton_trimitere_formular">
+                    <input type="submit" value="Rezervă locul gratuit">
+                </div>
+                <p></p>
+            </form>
+        </div>
+        <p></p>
+        <div class="sectiune-2">
+            <img src="../image/logo.png" style="width:150px; height: 110px;"><br>
+          
+            <h4>Rețele de socializare</h4>
+            <p>
+                <a href="https://www.facebook.com/"><img src="../image/log_f.png" style="width:40px; height:35px;"></a>
+                <a href="https://www.instagram.com/"><img src="../image/log_i.png" style="width:40px; height:35px;"></a>
+                <a href="https://www.linkedin.com/feed/"><img src="../image/log_in.png" style="width:40px; height:35px;"></a>
+                <a href="https://twitter.com/tweeter"><img src="../image/log_t.png" style="width:40px; height:35px;"></a>
+            <p>
+            <h3>DETALII SUPLIMENTARE</h3>
+            <p><br>
+            <ul type="square">
+                <li>Webinar-ul va dura 2 ore</li>
+                <li>Toți participanții vor primi GRATUIT un curs de programare de 8 ore</li>
+                <li>Vei afla despre rolul și responsabilitățile unui angajat din domeniul IT</li>
+                <li>Vei afla care sunt salariile și beneficiile din acest domeniu</li>
+                
+            </ul>
+
+           
+            <div>
+            <b><p>Contact </b><br><p>
+                <a href="tel:+0770 280 142"><img src="../image/tel.png" style="width:20px; height:15px;"></a>&nbsp &nbsp 
+                <a href="tel:+0770 280 142">0770 280 142</a>
+           
+            <br>
+                <a href="mailto:contact@itfactory.ro"><img src="../image/mail.png" style="width:25px; height:30px;"></a>&nbsp &nbsp  
+                <a href="mailto:contact@itfactory.ro">hello@itfactory.ro</a><p><br>
+            </div> 
+
+            <div>
+                    <p> <b>Rețele de socializare<b>
+                <p>
+                    <a href="https://www.facebook.com/"><img src="../image/log_f.png" style="width:40px; height:35px;"></a>
+                    <a href="https://www.instagram.com/"><img src="../image/log_i.png" style="width:40px; height:35px;"></a>
+                    <a href="https://www.linkedin.com/feed/"><img src="../image/log_in.png" style="width:40px; height:35px;"></a>
+                    <a href="https://twitter.com/tweeter"><img src="../image/log_t.png" style="width:40px; height:35px;"></a>
+                <p></p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>  
